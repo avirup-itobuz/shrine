@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Serif:opsz,wght@8..144,600&display=swap");
+h2 {
+  max-width: 680px;
+  color: #232526;
+  font-family: "Roboto Serif", serif;
+  font-size: 30px;
+  font-weight: 600;
+  border-left: 4px solid red;
+}
+
+p {
+  color: #747A82;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hero h3 {
+  color: #232526;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+}
+.hero h3 span {
+  color: #747A82;
+}
+.hero div > * {
+  border-radius: 10px;
+}
+.hero img {
+  width: 100%;
+}
+
+.ministries .cards > div > div {
+  background-color: #FFE6E0;
+  border-radius: 50px 50px 50px 0px;
+  max-width: 300px;
+}
+.ministries .cards h3 {
+  color: #232526;
+  font-family: "Roboto Serif";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0.52px;
+}
+.ministries .cards > img {
+  width: 25%;
+}
+.ministries .cards h6 {
+  color: #232526;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .ministries .heading h2 {
+    font-size: 43px;
+  }
+}
+.shrine-events h2 {
+  font-size: 35px !important;
+}
+.shrine-events img {
+  width: 100%;
+}
+.shrine-events .text {
+  max-width: 400px;
+}
+.shrine-events .date {
+  color: #232526;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+.shrine-events .info p {
+  text-wrap: nowrap;
+  margin-bottom: 0;
+  font-size: 10px;
+}
+.shrine-events h3 {
+  color: #232526;
+  font-family: "Roboto Serif";
+  font-size: 20px;
+  font-weight: 600;
+}
+.shrine-events h4 {
+  font-size: 16px !important;
+  margin-bottom: 0;
+}
+.shrine-events button {
+  font-size: 12px;
+}
+.shrine-events .events > div > div > div {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.shrine-events .counter div {
+  height: 35px;
+  width: 35px;
+}
+.shrine-events .counter div:nth-child(1) {
+  background-color: #C0304F;
+  color: white;
+}
+
+.footer {
+  background-image: url(images/footer/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .brand .logo {
+  max-width: 200px;
+}
+.footer .brand p {
+  max-width: 420px;
+}
+.footer hr {
+  color: white;
+}
+.footer .footer-content h3 {
+  color: white;
+  font-size: 20px;
+}
+.footer .footer-content p {
+  font-size: 14px;
+}
+.footer .footer-content input {
+  background-color: #2F3032;
+}/*# sourceMappingURL=styles.css.map */

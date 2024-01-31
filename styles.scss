@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto+Serif:opsz,wght@8..144,600&display=swap');
+
+h2 {
+    max-width: 680px;
+    color: #232526;
+    font-family: 'Roboto Serif', serif;
+    font-size: 30px;
+    font-weight: 600;
+    border-left: 4px solid red;
+}
+
+p {
+    color: #747A82;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    // margin-bottom: 0;
+}
+
+//hero
+.hero {
+    h3 {
+        color: #232526;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1.6px;
+
+        span {
+            color: #747A82;
+        }
+    }
+
+    div>* {
+        border-radius: 10px;
+    }
+
+    img {
+        width: 100%;
+    }
+
+}
+
+//ministries
+.ministries {
+    .heading {}
+
+    .cards {
+        &>div>div {
+            background-color: #FFE6E0;
+            border-radius: 50px 50px 50px 0px;
+            max-width: 300px;
+        }
+
+        h3 {
+            color: #232526;
+            font-family: "Roboto Serif";
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 36px;
+            letter-spacing: 0.52px;
+        }
+
+        &>img {
+            width: 25%;
+        }
+
+        h6 {
+            color: #232526;
+            font-family: Poppins;
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (min-width:768px) {
+    .ministries {
+        .heading {
+            h2 {
+                font-size: 43px;
+            }
+        }
+    }
+}
+
+//events
+.shrine-events {
+    h2 {
+        font-size: 35px !important;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .text {
+        max-width: 400px;
+    }
+
+    .date {
+        color: #232526;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .info {
+        p {
+            text-wrap: nowrap;
+            margin-bottom: 0;
+            font-size: 10px;
+        }
+    }
+
+    h3 {
+        color: #232526;
+        font-family: "Roboto Serif";
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    h4 {
+        font-size: 16px !important;
+        margin-bottom: 0;
+    }
+
+    button {
+        font-size: 12px;
+    }
+
+    .events>div>div>div {
+        // min-width: 240px;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .counter {
+        div {
+            height: 35px;
+            width: 35px;
+        }
+
+        div:nth-child(1) {
+            background-color: #C0304F;
+            color: white;
+        }
+    }
+}
+
+//footer
+.footer {
+    background-image: url(images/footer/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .brand {
+        .logo {
+            max-width: 200px;
+        }
+
+        p {
+            max-width: 420px;
+        }
+    }
+
+    hr {
+        color: white;
+    }
+
+    .footer-content {
+        h3 {
+            color: white;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 14px;
+        }
+
+        input {
+            background-color: #2F3032;
+        }
+    }
+
+}
