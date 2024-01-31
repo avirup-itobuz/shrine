@@ -130,4 +130,8 @@ p {
 }
 .footer .footer-content input {
   background-color: #2F3032;
+}
+.footer .footer-content button {
+  background-color: #C0304F;
+  color: #2F3032;
 }/*# sourceMappingURL=styles.css.map */
