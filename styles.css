@@ -15,10 +15,16 @@ p {
   font-weight: 400;
 }
 
+.nav-logo {
+  translate: 0% 30%;
+  background: #fff;
+  z-index: 2;
+}
+
 .hero h3 {
   color: #232526;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   letter-spacing: 1.6px;
 }
@@ -94,7 +100,9 @@ p {
 .shrine-events button {
   font-size: 12px;
 }
-.shrine-events .events > div > div > div {
+.shrine-events .events > div {
+  min-width: 280px;
+  max-width: 350px;
   border-radius: 20px;
   overflow: hidden;
 }
