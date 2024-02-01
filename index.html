@@ -19,7 +19,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg container">
+    <nav class="navbar navbar-expand-lg container p-2">
       <a class="navbar-brand d-inline-block d-lg-none" href="#">
         <img src="images/navbar/logo.svg" alt="" width="100px" />
       </a>
@@ -36,33 +36,33 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul
-          class="navbar-nav mx-auto gap-4 d-flex justify-content-center align-items-center"
+          class="navbar-nav mx-auto gap-3 d-flex justify-content-center align-items-center"
         >
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <li class="nav-item position-relative nav-text">
+            <a class="nav-link active" href="#">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item position-relative nav-text">
             <a class="nav-link" href="#">Pages</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Blog</a>
+          <li class="nav-item position-relative nav-text">
+            <a class="nav-link" href="#">Blog</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item position-relative nav-text">
             <a class="nav-link" href="#">Donation</a>
           </li>
           <a
-            class="navbar-brand mx-5 position-relative nav-logo d-none d-lg-inline-block"
+            class="navbar-brand mx-5 nav-logo d-none d-lg-inline-block"
             href="#"
             ><img src="images/navbar/logo.svg" alt=""
           /></a>
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#">Shop</a>
+          <li class="nav-item position-relative nav-text">
+            <a class="nav-link" href="#">Shop</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item position-relative nav-text">
             <a class="nav-link" href="#">Contacts</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#"
+            <a class="nav-link" href="#"
               ><img src="images/navbar/search.svg" alt=""
             /></a>
           </li>
@@ -74,13 +74,13 @@
         </ul>
       </div>
     </nav>
-    <hr class="w-75 m-auto mb-5" />
+    <hr class="w-100 m-auto mb-5" />
     <section
       class="hero d-flex flex-column justify-content-center align-items-center"
     >
       <h3><span> HOME</span> > PAGES > EVENTS</h3>
-      <div class="images row d-flex w-75 m-3 mb-5">
-        <div class="house-img col-12 col-md-9 mb-3">
+      <div class="images row d-flex w-75 m-3 mb-5 m-auto">
+        <div class="house-img col-12 col-md-9 mb-3 m-auto">
           <img src="images/hero/house.svg" alt="" />
         </div>
         <div class="col-12 col-md-3 d-flex flex-column">
@@ -90,7 +90,9 @@
       </div>
     </section>
 
-    <section class="ministries mb-4">
+    <section class="ministries mb-4 position-relative">
+      <img class="d-none d-lg-block position-absolute top-0 end-0" src="images/bg/bg-bag.svg" alt="" />
+      <img class="d-none d-lg-block position-absolute top-50" src="images/bg/bg-women.svg" alt="" />
       <div class="heading w-75 m-auto">
         <h2 class="ps-4 mb-4">
           Do Onto Others As You Would Have Them Do Ministries
@@ -107,9 +109,9 @@
         </p>
       </div>
       <div class="cards row w-75 m-auto">
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 m-auto">
           <div
-            class="content p-3 d-flex flex-column justify-content-center align-items-center my-4 m-auto"
+            class="content p-3 py-5 d-flex flex-column justify-content-center align-items-center my-4 m-auto"
           >
             <img src="images/ministries/children.svg" alt="" />
             <h3 class="py-3 text-center">Children Ministries</h3>
@@ -123,9 +125,9 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 m-auto">
           <div
-            class="content p-3 d-flex flex-column justify-content-center align-items-center my-4 m-auto"
+            class="content p-3 py-5 d-flex flex-column justify-content-center align-items-center my-4 m-auto"
           >
             <img src="images/ministries/charity.svg" alt="" />
             <h3 class="py-3 text-center">Charity Ministries</h3>
@@ -139,9 +141,9 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-lg-4">
+        <div class="col-12 col-lg-4 m-auto">
           <div
-            class="content p-3 d-flex flex-column justify-content-center align-items-center my-4 m-auto"
+            class="content p-3 py-5 d-flex flex-column justify-content-center align-items-center my-4 m-auto"
           >
             <img src="images/ministries/elder.svg" alt="" />
             <h3 class="py-3 text-center">Elderly Ministries</h3>
@@ -158,10 +160,11 @@
       </div>
     </section>
 
-    <section class="shrine-events w-75 m-auto">
+    <section class="shrine-events w-75 m-auto position-relative">
+      <img class="d-none d-lg-block position-absolute bottom-0 end-0 " style="width: 200px;" src="images/bg/bg-pillar.svg" alt="">
       <div class="d-flex flex-column flex-md-row justify-content-between">
         <div class="heading">
-          <h2 class="ps-4">Shrine Events</h2>
+          <h2 class="ps-4 mb-3">Shrine Events</h2>
         </div>
         <div class="text">
           <p>
@@ -175,7 +178,12 @@
         class="events py-2 d-flex flex-wrap gap-4 m-auto w-100 justify-content-center align-items-center"
       >
         <div class="border rounded">
-          <img src="images/events/faithful.svg" alt="" />
+          <div class="img position-relative">
+            <img src="images/events/faithful.svg" alt="" />
+            <div class="calendar bg-dark position-absolute">
+              <img class="m-1" src="images/events/calendar.svg" alt="" />
+            </div>
+          </div>
           <h4 class="date text-start px-2 pt-2">26.10.2013</h4>
           <div class="info d-flex p-2 justify-content-between px-2">
             <div class="time d-flex justify-content-center align-items-center">
@@ -197,7 +205,12 @@
           </button>
         </div>
         <div class="border rounded">
-          <img src="images/events/faithful.svg" alt="" />
+          <div class="img position-relative">
+            <img src="images/events/faithful.svg" alt="" />
+            <div class="calendar bg-dark position-absolute">
+              <img class="m-1" src="images/events/calendar.svg" alt="" />
+            </div>
+          </div>
           <h4 class="date text-start px-2 pt-2">26.10.2013</h4>
           <div class="info d-flex p-2 justify-content-between px-2">
             <div class="time d-flex justify-content-center align-items-center">
@@ -219,7 +232,12 @@
           </button>
         </div>
         <div class="border rounded">
-          <img src="images/events/faithful.svg" alt="" />
+          <div class="img position-relative">
+            <img src="images/events/faithful.svg" alt="" />
+            <div class="calendar bg-dark position-absolute">
+              <img class="m-1" src="images/events/calendar.svg" alt="" />
+            </div>
+          </div>
           <h4 class="date text-start px-2 pt-2">26.10.2013</h4>
           <div class="info d-flex p-2 justify-content-between px-2">
             <div class="time d-flex justify-content-center align-items-center">
@@ -241,7 +259,12 @@
           </button>
         </div>
         <div class="border rounded">
-          <img src="images/events/faithful.svg" alt="" />
+          <div class="img position-relative">
+            <img src="images/events/faithful.svg" alt="" />
+            <div class="calendar bg-dark position-absolute">
+              <img class="m-1" src="images/events/calendar.svg" alt="" />
+            </div>
+          </div>
           <h4 class="date text-start px-2 pt-2">26.10.2013</h4>
           <div class="info d-flex p-2 justify-content-between px-2">
             <div class="time d-flex justify-content-center align-items-center">
@@ -263,7 +286,12 @@
           </button>
         </div>
         <div class="border rounded">
-          <img src="images/events/faithful.svg" alt="" />
+          <div class="img position-relative">
+            <img src="images/events/faithful.svg" alt="" />
+            <div class="calendar bg-dark position-absolute">
+              <img class="m-1" src="images/events/calendar.svg" alt="" />
+            </div>
+          </div>
           <h4 class="date text-start px-2 pt-2">26.10.2013</h4>
           <div class="info d-flex p-2 justify-content-between px-2">
             <div class="time d-flex justify-content-center align-items-center">
@@ -285,7 +313,12 @@
           </button>
         </div>
         <div class="border rounded">
-          <img src="images/events/faithful.svg" alt="" />
+          <div class="img position-relative">
+            <img src="images/events/faithful.svg" alt="" />
+            <div class="calendar bg-dark position-absolute">
+              <img class="m-1" src="images/events/calendar.svg" alt="" />
+            </div>
+          </div>
           <h4 class="date text-start px-2 pt-2">26.10.2013</h4>
           <div class="info d-flex p-2 justify-content-between px-2">
             <div class="time d-flex justify-content-center align-items-center">
@@ -366,7 +399,7 @@
                 placeholder="Enter your email"
                 class="border-0 p-2 rounded w-100"
               />
-              <button type="button" class="btn btn-danger p-2 my-2">
+              <button type="button" class="btn btn-danger p-2 my-2 text-white">
                 SUBSCRIBE
               </button>
             </div>
@@ -376,9 +409,9 @@
       <hr class="w-75 m-auto" />
       <div class="footer-bottom mt-3">
         <div
-          class="d-flex flex-column flex-md-row justify-content-between align-items-center w-75 m-auto"
+          class="d-flex flex-column flex-md-row justify-content-between align-items-center w-75 pb-3 m-auto"
         >
-          <p class="text-center">
+          <p class="text-center mb-0">
             Copyright © 2022 Shrine | All Rights Reserved
           </p>
           <div class="d-flex gap-3 justify-content-center">
